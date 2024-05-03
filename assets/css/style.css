@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+.bg-card{
+    background: #f9f0e4;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul li {
+    list-style: none;
+}
+.coffee-border {
+    border: 2px solid #FDF0DB;
+}
+.bg-coffee {
+    background: #0D0908;
+}
+.btn {
+    color: #62390d;
+}
+h1 {
+    color: #5D3609;
+}
+.bgcoffee {
+    color: #794810;
+}
+/* nav section start */
+span.navbar-toggler-icon {
+    color: #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nav-link {
+    color: #fff;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+    font-weight: 500;
+}
+.nav-link:focus,
+.nav-link:hover {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+/* nav section end */
+/* hero section start */
+.hero {
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(#00000080, #00000080), url(../img/banner.png);
+    background-size: cover;
+    background-position: center center;
+}
+.hero .coffee {
+    font-family: "Clicker Script", cursive;
+    font-size: 150px;
+}
+/* hero section end */
+/* best coffee section start */
+.best-coffee h1 {
+    font-size: 50px;
+}
+/* best coffee section end */
+/* coffee style section Start */
+.coffee-style h1 {
+    font-size: 50px;
+}
+.coffee-style h5 {
+    color: #794810;
+}
+/* coffee style section End */
+/* about section start */
+.about h3 {
+    color: #794810;
+}
+.about .bg-pink{
+    background-color: #FFEFD8;
+}
+/* about section end */
+/* order section start  */
+.order {
+    width: 100%;
+    background: linear-gradient(rgba(119, 71, 51, 0.8), rgba(83, 46, 30, 0.8)), url(../img/banner13.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(116, 83, 49);
+    height: auto;
+}
+/* order section end */
+/* feedback section start */
+.carousel-item {
+    height: 480px;
+}
+.carousel-caption {
+    top: 0px;
+    padding-top: 15%;
+}
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
+    filter: invert(0) grayscale(0);  
+}
+.carousel-control-prev{
+    left: 8%;
+    right: 8%;   
+}
+.carousel-control-next{
+    left: 77%;
+    right: 77%;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #ffa500;
+    color: #62390d;
+}
+.carousel-control-next-icon {
+    background: color(orange) ;
+}
+/* feedback section end */
+/* Subscription section start */
+.subs {
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+   background: linear-gradient(rgba(119, 71, 51, 0.8), rgba(119, 71, 51, 0.8)), url(../img/bnr.png);
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(rgba(66, 39, 28, 0.9), rgba(60, 35, 24, 0.7)), url(../img/bnrrr.png);
+    background-size: cover;
+    background-position: center;
+}
+footer h1 {
+    font-family: "Clicker Script", cursive;
+    font-size: 50px;
+}
+ .side1{
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    left: 75%;
+}
+.side2{
+    position: absolute;
+    left: 0%;
+    top: 5%;
+} 
+/* Subscription section end */
+
+/* media query Start */
+@media screen and (max-width: 767px) {
+    .best-coffee h1 {
+        font-size: 33px;
+    }
+    .coffee-style h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .best-coffee h1 {
+        font-size: 15px;
+    }
+    .coffee-style h1 {
+        font-size: 21px;
+    }
+    .hero .coffee {
+        font-family: "Clicker Script", cursive;
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .best-coffee h1 {
+        font-size: 22px;
+    }
+    .coffee-style h1 {
+        font-size: 19px;
+    }
+}
+/* media query end */
